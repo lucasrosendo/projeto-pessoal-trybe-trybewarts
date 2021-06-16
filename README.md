@@ -343,6 +343,9 @@ Pontos importantes:
   * Tanto o formulário quanto o `main` devem ser flex containers
   * O formulário deve ter uma largura de 675px
 
+
+
+
   #### O que será verificado:
 
   - Existe um elemento `form` com o id `evaluation-form`
@@ -364,13 +367,13 @@ Pontos importantes:
 ### 7. Adicione a logo da Trybewarts no lado direito da página
 
   Pontos importantes:
-  * Deve possuir o id ``trybewarts-forms-logo``
+  * Deve possuir o id ``trybewarts--logo``
   * O atributo `src` do logotipo deve apontar para ``images/trybewarts-colored.svg``
   * A imagem deve possuir um `height` de `500px`
 
   #### O que será verificado:
-
-  - Existe um elemento `img` com o id `trybewarts-forms-logo`
+forms
+  - Existe um elemento `img` com o id `ytrbewarts-forms-logo`
   - O elemento possui o atributo `src` apontando para `images/trybewarts-colored.svg`
 
 ### 8.Acrescente no formulário os inputs de 'Nome:', 'Sobrenome:' e 'Email:'
