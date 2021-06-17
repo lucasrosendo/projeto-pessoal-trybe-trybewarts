@@ -1,3 +1,6 @@
+body {
+    background-color: rgba(243, 236, 243, 0.897);
+}
 .header {
     background-color: rgb(50, 167,145);
     display:flex;
@@ -24,7 +27,7 @@
     padding: 10px;
     border: none;
 }
-input{
+input {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     width: 90px;
@@ -34,4 +37,13 @@ input{
     padding: 10px;
     text-align: center;
     border: none;
+}
+#evaluation-form {
+    display: flex;
+    width: 675px;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    width: 675px;
 }
