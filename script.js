@@ -1,14 +1,12 @@
 const log = document.querySelector('#button-logar')
-
 function loginCorreto() {
-var login = document.querySelector('.login-value');
-var pass = document.querySelector('.pass-value');
+const login = document.querySelector('.login-value').value;
+const pass = document.querySelector('.pass-value').value;
 
-  if ((login === 'tryber@teste.com') || (pass === '123456')) {
-    window.alert('Olá, Tryber');
+  if ((login === 'tryber@teste.com') && (pass === '123456')) {
+    alert('Olá, Tryber');
   } else{
-    window.alert('Login ou senha inválidos.!');
+    alert('Login ou senha inválidos.!');
   }
 }
-
 log.addEventListener('click', loginCorreto);
