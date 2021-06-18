@@ -15,25 +15,58 @@
             <input class="login-value" placeholder="Login" type="text">   
             <input class="pass-value" placeholder="Senha" type="password">            
             <button type="submit" id="button-logar">Logar</button>   
-        </form>        
+        </form>
     </header>
     <main>
-       <form action="" id="evaluation-form">
-        <div>
-            <input id="input-name" type="text" placeholder="Nome">
-            <input id="input-lastname" type="text" placeholder="Sobrenome">  
-        </div>        
-        <input id="input-email" type="text" placeholder="Email">
-        <select name="Casa" id="house">
-            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-            <option id="corvinode-house" value="Corvinode">Corvinode</option>
-            <option id="pytherina-house" value="Pytherina">Pytherina</option>
-        </select>
+        <form action="" id="evaluation-form">
+            <div>
+                <input id="input-name" type="text" placeholder="Nome">
+                <input id="input-lastname" type="text" placeholder="Sobrenome">  
+            </div>
+            <div class="container">     
+                <input id="input-email" type="text" placeholder="Email">
+                Casa:<select name="Casa" id="house">
+                    <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                    <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                    <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                    <option id="pytherina-house" value="Pytherina">Pytherina</option>
+                </select>  
+            </div>
+            <div>
+                <label id="label-family">Qual sua família?</label>
+                <input type="radio" id="radioFamily" value="Frontend" name="family">
+                <input type="radio" id="radioFamily" value="Backend" name="family">
+                <input type="radio" id="radioFamily" value="FullStack" name="family">  
+            </div>
+            <div>
+                <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label><br>
+                <input type="checkbox" class="subject" value="HoFs" name="HoFs">
+                <input type="checkbox" class="subject" value="Jest" name="Jest">
+                <input type="checkbox" class="subject" value="Promises" name="Promises">
+                <input type="checkbox" class="subject" value="React" name="React">
+                <input type="checkbox" class="subject" value="SQL" name="SQL">
+                <input type="checkbox" class="subject" value="Python" name="Python">  
+            </div> 
+            <div>
+                <label id="label-rate">Como você avalia a Trybewarts?</label>
+                <input type="radio" value="1" name="rate" id="avaliacao">
+                <input type="radio" value="2" name="rate" id="avaliacao">
+                <input type="radio" value="3" name="rate" id="avaliacao">
+                <input type="radio" value="4" name="rate" id="avaliacao">
+                <input type="radio" value="5" name="rate" id="avaliacao">
+                <input type="radio" value="6" name="rate" id="avaliacao">
+                <input type="radio" value="7" name="rate" id="avaliacao">
+                <input type="radio" value="8" name="rate" id="avaliacao">
+                <input type="radio" value="9" name="rate" id="avaliacao">
+                <input type="radio" value="10" name="rate" id="avaliacao">
+            </div>
+            <div>
+                <label class="textarea">Deixe seu comentário:</label><br>
+                <textarea id="areaTexto" cols="40" rows="10" maxlength="500" ></textarea>
+            </div> 
        </form>
        <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>

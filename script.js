@@ -4,9 +4,9 @@ function loginCorreto() {
     const pass = document.querySelector('.pass-value').value;
 
     if ((login === 'tryber@teste.com') && (pass === '123456')) {
-        alert('Olá, Tryber');
+        alert('Olá, Tryber!');
     }else {
-        alert('Login ou senha inválidos.!');
+        alert('Login ou senha inválidos.');
     }
 }
 log.addEventListener('click', loginCorreto);
