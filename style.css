@@ -21,14 +21,13 @@
   color: white;
 }
 
-.login-value,
-.pass-value {
+.login-value , .pass-value {
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border: none;
   border-radius: 3px;
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: black;
   height: 35px;
   margin: 15px;
   padding: 10px;
@@ -36,10 +35,10 @@
 }
 
 #button-logar {
+  color: white;
   background-color: rgb(192, 13, 52);
   border-radius: 10px;
   border: none;
-  color: rgb(255, 255, 255);
   cursor: pointer;
   height: 35px;
   margin: 15px;
