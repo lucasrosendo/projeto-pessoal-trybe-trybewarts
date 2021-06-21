@@ -21,7 +21,8 @@
   color: white;
 }
 
-.login-value , .pass-value {
+.login-value,
+.pass-value {
   align-items: center;
   background-color: white;
   border: none;
@@ -89,3 +90,4 @@ footer {
 .avaliacao {
   display: flex;
 }
+/* minha branch */
